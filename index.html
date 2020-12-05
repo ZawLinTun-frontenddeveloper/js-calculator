@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calc">
+        <div class="display">
+            <span class="display-num">0</span>
+
+        </div>
+        <div class="keypad">
+            <div class="key-row">
+                <div class="key-grey" onclick="clearAll()">AC</div>
+                <div class="key-grey" onclick="clearLast()">C</div>
+                <div class="key-grey" onclick="showDisplay('%')">%</div>
+                <div class="key" onclick="showDisplay('/')">&divide;</div>
+            </div>
+            <div class="key-row">
+                <div class="key" onclick="showDisplay(7)">7</div>
+                <div class="key" onclick="showDisplay(8)">8</div>
+                <div class="key" onclick="showDisplay(9)">9</div>
+                <div class="key" onclick="showDisplay('*')">&times;</div>
+            </div>
+            <div class="key-row">
+                <div class="key" onclick="showDisplay(4)" >4</div>
+                <div class="key"onclick="showDisplay(5)">5</div>
+                <div class="key"onclick="showDisplay(6)">6</div>
+                <div class="key"onclick="showDisplay('-')">&minus;</div>
+            </div>
+            <div class="key-row">
+                <div class="key"onclick="showDisplay(1)">1</div>
+                <div class="key"onclick="showDisplay(2)">2</div>
+                <div class="key"onclick="showDisplay(3)">3</div>
+                <div class="key"onclick="showDisplay('+')">&#43;</div>
+            </div>
+  <div class="key-row">
+                <div class="key-zero" onclick="showDisplay(0)">0</div>
+                <div class="key"onclick="showDisplay('.')">.</div>
+                <div class="key" onclick="calculate()">=</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

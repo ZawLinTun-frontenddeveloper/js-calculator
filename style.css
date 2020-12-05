@@ -1,0 +1,84 @@
+*{
+    box-sizing:  border-box;
+    border: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    
+}
+
+.key{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 50px;
+    margin: 5px 3px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.key-grey{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(167, 167, 167);
+    border-radius: 50px;
+    margin: 5px 3px;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.key:last-child{
+    background-color: rgb(228, 155, 19);
+}
+
+.key-zero{
+    width: 140px;
+    height: 70px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin: 5px 6px;
+    
+}
+
+
+
+.calc{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.display{
+     display: flex;
+    justify-content: flex-end;     
+    width: 250px;
+}
+
+.display-num{
+    color: white;
+    font-size: 4rem;
+}
+
+.key-row:first-child{
+    
+}
+
+.keypad{
+
+}
+
+.key-row{
+    display: flex;
+}
